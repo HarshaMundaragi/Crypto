@@ -9,16 +9,28 @@
 /* Begin PBXBuildFile section */
 		77B789E22BC2939300087BEA /* CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B789E12BC2939300087BEA /* CryptoApp.swift */; };
 		77B789E42BC2939300087BEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B789E32BC2939300087BEA /* ContentView.swift */; };
-		77B789E62BC2939500087BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B789E52BC2939500087BEA /* Assets.xcassets */; };
 		77B789E92BC2939500087BEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B789E82BC2939500087BEA /* Preview Assets.xcassets */; };
+		77B789F02BC2997B00087BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B789EF2BC2997B00087BEA /* Assets.xcassets */; };
+		77B789F82BC29A7900087BEA /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B789F22BC29A7800087BEA /* Date.swift */; };
+		77B789F92BC29A7900087BEA /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B789F32BC29A7800087BEA /* PreviewProvider.swift */; };
+		77B789FA2BC29A7900087BEA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B789F42BC29A7800087BEA /* String.swift */; };
+		77B789FB2BC29A7900087BEA /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B789F52BC29A7800087BEA /* Double.swift */; };
+		77B789FC2BC29A7900087BEA /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B789F62BC29A7800087BEA /* UIApplication.swift */; };
+		77B789FD2BC29A7900087BEA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B789F72BC29A7800087BEA /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		77B789DE2BC2939300087BEA /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B789E12BC2939300087BEA /* CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoApp.swift; sourceTree = "<group>"; };
 		77B789E32BC2939300087BEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		77B789E52BC2939500087BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77B789E82BC2939500087BEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		77B789EF2BC2997B00087BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		77B789F22BC29A7800087BEA /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		77B789F32BC29A7800087BEA /* PreviewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		77B789F42BC29A7800087BEA /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		77B789F52BC29A7800087BEA /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		77B789F62BC29A7800087BEA /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		77B789F72BC29A7800087BEA /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +63,10 @@
 		77B789E02BC2939300087BEA /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
+				77B789F12BC29A7800087BEA /* Extensions */,
 				77B789E12BC2939300087BEA /* CryptoApp.swift */,
 				77B789E32BC2939300087BEA /* ContentView.swift */,
-				77B789E52BC2939500087BEA /* Assets.xcassets */,
+				77B789EF2BC2997B00087BEA /* Assets.xcassets */,
 				77B789E72BC2939500087BEA /* Preview Content */,
 			);
 			path = Crypto;
@@ -65,6 +78,19 @@
 				77B789E82BC2939500087BEA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		77B789F12BC29A7800087BEA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77B789F22BC29A7800087BEA /* Date.swift */,
+				77B789F32BC29A7800087BEA /* PreviewProvider.swift */,
+				77B789F42BC29A7800087BEA /* String.swift */,
+				77B789F52BC29A7800087BEA /* Double.swift */,
+				77B789F62BC29A7800087BEA /* UIApplication.swift */,
+				77B789F72BC29A7800087BEA /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B789E92BC2939500087BEA /* Preview Assets.xcassets in Resources */,
-				77B789E62BC2939500087BEA /* Assets.xcassets in Resources */,
+				77B789F02BC2997B00087BEA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +164,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B789E42BC2939300087BEA /* ContentView.swift in Sources */,
+				77B789FC2BC29A7900087BEA /* UIApplication.swift in Sources */,
+				77B789F92BC29A7900087BEA /* PreviewProvider.swift in Sources */,
+				77B789FA2BC29A7900087BEA /* String.swift in Sources */,
+				77B789F82BC29A7900087BEA /* Date.swift in Sources */,
+				77B789FD2BC29A7900087BEA /* Color.swift in Sources */,
+				77B789FB2BC29A7900087BEA /* Double.swift in Sources */,
 				77B789E22BC2939300087BEA /* CryptoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,11 +306,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Crypto/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Crypto..;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,6 +319,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mundaragi.Crypto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,11 +338,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Crypto/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Crypto..;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +351,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mundaragi.Crypto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
